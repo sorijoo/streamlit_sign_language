@@ -23,4 +23,4 @@ st.image(image,)
 
 # 주제 선정 section
 section('주제 선정')
-st.subheader('필요성')
+st.markdown('**프로젝트 **')
