@@ -18,5 +18,5 @@ st.set_page_config(
 
 # Progress section
 section('Progress')
-image = Image.open('images/목차.PNG')
+image = Image.open('images/progress.PNG')
 st.image(image,)
