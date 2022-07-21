@@ -37,7 +37,7 @@ line_break()
 # 데이터 수집 및 전처리 section
 section('preprocessing')
 st.markdown('
-            '''
+            '''python
             import pandas as pd
             '''
             ')
