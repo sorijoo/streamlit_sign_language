@@ -7,7 +7,7 @@ from PIL import Image
 # 전체 페이지 설정
 st.set_page_config(
     page_title="English Sign Language",
-    page_icon="✌🏼",  # 아이콘
+    page_icon="🤘",  # 아이콘
     initial_sidebar_state="expanded", 
     menu_items={
         'Get Help': 'https://www.extremelycoolapp.com/help',
