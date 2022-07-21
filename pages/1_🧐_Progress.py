@@ -20,7 +20,12 @@ st.set_page_config(
 section('Progress')
 image = Image.open('images/progress.PNG')
 st.image(image,)
+line_break()
 
 # 주제 선정 section
 section('주제 선정')
-st.markdown('##### **프로젝트 소개**')
+callout([
+    'Kaggle - Sign Language MNIST Dataset'
+    '알파벳 문자 A-Z에 대한 일대일 맵으로 라벨(0-25)을 나타낸다. 단, 제스처 모션으로 인해 9(J)와 25(Z)의 경우는 제외한다.',
+])
+line_break()
