@@ -16,4 +16,7 @@ st.set_page_config(
     }
 )
 
-title('Progress')
+# Progress section
+section('Progress')
+image = Image.open('images/.png')
+st.image(image,)
