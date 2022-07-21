@@ -23,7 +23,7 @@ st.image(image,)
 line_break()
 
 # 주제 선정 section
-section('주제 선정')
+section('ubject')
 callout([
     '[데이터]',
     'Kaggle - Sign Language MNIST Dataset',
