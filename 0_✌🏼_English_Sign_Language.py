@@ -30,3 +30,16 @@ callout([
 ])
 line_break()
 
+# 데이터 출처 section
+section('Dataset')
+link = 'https://www.kaggle.com/datasets/datamunge/sign-language-mnist'
+st.markdown(link, unsafe_allow_html=True)
+st.caption('데이터 출처 사이트로 이동하기')
+line_break()
+
+# Sign Team Notion section
+section('Notion')
+link = 'https://www.notion.so/likelion-aischool/English-Sign-Language-759acc98547a4e259367a63625ba2158'
+st.markdown(link, unsafe_allow_html=True)
+st.caption('팀 노션 페이지로 이동하기')
+line_break()
