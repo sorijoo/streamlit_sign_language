@@ -35,4 +35,4 @@ callout([
 line_break()
 
 # 데이터 수집 및 전처리 section
-section('데이터 수집 ')
+section('전처리')
