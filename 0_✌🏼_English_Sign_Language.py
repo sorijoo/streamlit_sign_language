@@ -17,7 +17,7 @@ st.set_page_config(
 )
 
 st.balloons()  # 풍선 효과
-title('English Sign Language')
+title('English Sign Language CNN Project')
 
 # 개요 section
 section('Summary')
