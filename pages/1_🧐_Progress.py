@@ -35,4 +35,13 @@ callout([
 line_break()
 
 # 데이터 수집 및 전처리 section
-section('전처리')
+section('preprocessing')
+line_break()
+
+# 모델링 및 예측 section
+section('Modeling')
+line_break()
+
+# 발표 자료 제작 section
+section('Streamlit')
+line_break()
