@@ -36,6 +36,9 @@ line_break()
 
 # 데이터 수집 및 전처리 section
 section('preprocessing')
+code = '''def hello():
+     print("Hello, Streamlit!")'''
+st.code(code, language='python')
 line_break()
 
 # 모델링 및 예측 section
