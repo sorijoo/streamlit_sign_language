@@ -23,4 +23,4 @@ st.image(image,)
 
 # 주제 선정 section
 section('주제 선정')
-st.markdown('#### **프로젝트 소개**')
+st.markdown('##### **프로젝트 소개**')
