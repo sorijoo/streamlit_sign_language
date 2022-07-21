@@ -36,11 +36,6 @@ line_break()
 
 # 데이터 수집 및 전처리 section
 section('preprocessing')
-st.markdown('
-            '''python
-            import pandas as pd
-            '''
-            ')
 line_break()
 
 # 모델링 및 예측 section
