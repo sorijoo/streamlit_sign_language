@@ -26,7 +26,7 @@ line_break()
 section('주제 선정')
 callout([
     '[데이터]',
-    '<Kaggle - Sign Language MNIST Dataset>',
+    'Kaggle - Sign Language MNIST Dataset',
     '알파벳 문자 A-Z에 대한 일대일 맵으로 Label(0-25)을 나타낸다. 단, 제스처 모션으로 인해 9(J)와 25(Z)의 경우는 제외한다.',
     '',
     '[필요성]',
