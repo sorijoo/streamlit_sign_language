@@ -16,4 +16,4 @@ st.set_page_config(
     }
 )
 
-title('English Sign Language CNN Project')
+title('Progress')
