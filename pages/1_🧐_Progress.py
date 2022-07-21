@@ -25,8 +25,11 @@ line_break()
 # 주제 선정 section
 section('주제 선정')
 callout([
+    '[데이터]'
     'Kaggle - Sign Language MNIST Dataset',
     '알파벳 문자 A-Z에 대한 일대일 맵으로 Label(0-25)을 나타낸다. 단, 제스처 모션으로 인해 9(J)와 25(Z)의 경우는 제외한다.',
+    '',
+    '[필요성]',
     '청각 장애인과 청각 장애인이 컴퓨터 비전 애플리케이션을 사용하여 더 나은 의사 소통을 할 수 있도록 실용적으로 도움이 되기를 바란다.'
 ])
 line_break()
