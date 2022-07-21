@@ -37,7 +37,9 @@ line_break()
 # 데이터 수집 및 전처리 section
 section('preprocessing')
 line_break()
-
+```
+import pandas as pd
+```
 # 모델링 및 예측 section
 section('Modeling')
 line_break()
