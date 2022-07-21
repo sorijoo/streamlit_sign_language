@@ -21,7 +21,7 @@ title('English Sign Language CNN Project')
 
 # 개요 section
 section('Summary')
-image = Image.open('images/sign_language.jpg')
+image = Image.open('images/sign_language2.png')
 st.image(image,)
 callout([
   '안녕하세요! ✌ Sign팀입니다. 🙂',
