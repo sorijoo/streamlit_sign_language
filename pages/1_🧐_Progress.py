@@ -38,7 +38,7 @@ line_break()
 section('Problem')
 st.subheader("OpenCV Real Time")
 callout([
-    '모델의 성능 자체는 높게 나타났지만, OpenCV Real Time으로 수화를 예측할 경우 대부분을 다르게 예측하는 문제가 발생'
+    '모델의 성능 자체는 높게 나타났지만, OpenCV를 이용 수화를 예측할 경우 대부분을 다르게 예측하는 문제가 발생'
     ])
 line_break()
     
