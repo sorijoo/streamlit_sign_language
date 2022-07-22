@@ -20,7 +20,7 @@ title('Korean Sign Number CNN Project')
 
 # 개요 section
 section('Summary')
-image = Image.open('images/korean_number.PNG')
+image = Image.open('images/korean_sign.jpg')
 st.image(image,)
 callout([
   '안녕하세요! ✌ Sign팀입니다. 🙂',
