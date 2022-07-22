@@ -15,8 +15,6 @@ st.set_page_config(
     }
 )
 
-st.sidebar.markdown("SIGN SIGN")
-
 st.title("SIGN")
 
 st.write("""
