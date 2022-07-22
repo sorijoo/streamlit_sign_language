@@ -81,6 +81,7 @@ with tab2:
         'Hand Detection을 이용한 이미지로 모델을 학습 시키기 위해 직접 데이터를 수집하였다.',
         '직접 모션을 취한 뒤 이미지를 저장하여 데이터를 수집하고, 학습시킨 후 테스트를 해보니 성능이 눈에 띄게 좋아졌다.'
     ])
+    line_break()
     
     image = Image.open('images/detection1.png')
     st.image(image,)
