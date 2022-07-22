@@ -60,7 +60,10 @@ tab1, tab2 = st.tabs(["Detection", "Image Train"])
 with tab1:
     st.subheader("Detection")
     callout([
-        '수화를 제대로 인식하지 못 하는 문제점의 원인이 무엇일까?'
+        '수화를 제대로 인식하지 못 하는 문제점의 원인이 무엇일까?',
+        '',
+        '1. 모델 자체의 성능 문제',
+        '2. 전체적인 손 모양과 손가락의 마디들을 제대로 인식하지 '
     ])
 line_break()
 
