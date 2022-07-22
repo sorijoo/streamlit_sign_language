@@ -18,5 +18,16 @@ st.set_page_config(
 
 title('Kor Sign Progress')
 
-# progress section
+# Progress section
 section('Progress')
+image = Image.open('images/progress.PNG')
+st.image(image,)
+line_break()
+line_break()
+
+# 구성도 section
+section('구성도')
+
+line_break()
+line_break()
+    
