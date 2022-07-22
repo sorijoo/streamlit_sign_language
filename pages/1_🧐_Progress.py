@@ -39,13 +39,13 @@ section('Problem')
 tab1, tab2, tab3 = st.tabs(["Problem1", "Problem2", "Problem3"])
 
 with tab1:
-    st.header("Problem1")
+    st.subheader("Problem1")
     st.markdown('**A**를 **I** 라고 잘못 인식한 경우')
     image = Image.open('images/fail1.jpg')
     st.image(image,)
 
-with tab3:
-    st.header("An owl")
+with tab2:
+    st.subheader("An owl")
     st.markdown('**W**를 **B**라고 잘못 인식한 경우')
     image2 = Image.open('images/fail2.jpg')
     st.image(image2,)
