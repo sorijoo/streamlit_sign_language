@@ -89,5 +89,6 @@ with tab2:
     st.image(image2,)   
     image3 = Image.open('images/detection3.png')
     st.image(image3,)
-
+    st.caption('직접 수집한 데이터 사진의 일부입니다.')
+    
 line_break()
