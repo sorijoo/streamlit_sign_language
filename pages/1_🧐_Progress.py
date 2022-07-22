@@ -40,6 +40,11 @@ tab1, tab2, tab3 = st.tabs(["Problem1", "Problem2", "Problem3"])
 
 with tab1:
     st.subheader("OpenCV Real Time")
+    callout([
+    '모델의 성능 자체는 높게 나타났지만, OpenCV Real Time으로 수화를 예측할 경우 대부분을 다르게 예측하는 문제 발생'
+    ])
+    line_break()
+    
     st.markdown('**A**를 **I** 라고 잘못 인식한 경우')
     image = Image.open('images/fail1.jpg')
     st.image(image,)
