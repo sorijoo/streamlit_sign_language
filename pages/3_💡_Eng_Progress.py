@@ -74,9 +74,9 @@ with tab1:
 
     # 해결 section
     section('Solve')
-    tab1, tab2 = st.tabs(["Detection", "Image Train"])
+    tab3, tab4 = st.tabs(["Detection", "Image Train"])
 
-    with tab1:
+    with tab3:
         st.subheader("Detection")
         callout([
             '수화를 제대로 인식하지 못 하는 문제점의 원인이 무엇일까?',
@@ -94,7 +94,7 @@ with tab1:
             'Hand Detection 방법을 이용하여 손가락 마디, 관절 등을 인식할 수 있도록 한다.',
         ])
 
-    with tab2:
+    with tab4:
         st.subheader("Image Train")
         callout([
             'Hand Detection을 이용한 이미지로 모델을 학습 시키기 위해 직접 데이터를 수집하였다.',
