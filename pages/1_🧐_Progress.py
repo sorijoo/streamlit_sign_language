@@ -34,17 +34,24 @@ callout([
 ])
 line_break()
 
-# 데이터 수집 및 전처리 section
-section('preprocessing')
-code = '''def hello():
-     print("Hello, Streamlit!")'''
-st.code(code, language='python')
+# 문제점 section
+section('Problem')
+tab1, tab2, tab3 = st.tabs(["Problem1", "Problem2", "Problem3"])
+
+with tab1:
+    st.header("A cat")
+    image = Image.open('images/sign_language2.png')
+    st.image(image,)
+
+with tab2:
+    st.header("A dog")
+    st.write("https://static.streamlit.io/examples/dog.jpg")
+
+with tab3:
+    st.header("An owl")
+    st.write("https://static.streamlit.io/examples/owl.jpg")
+
 line_break()
 
-# 모델링 및 예측 section
-section('Modeling')
-line_break()
-
-# 발표 자료 제작 section
-section('Streamlit')
-line_break()
+# 해결 section
+section('Solve')
