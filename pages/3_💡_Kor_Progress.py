@@ -16,4 +16,7 @@ st.set_page_config(
     }
 )
 
-title('a')
+title('Kor Sign Progress')
+
+# progress section
+section('Progress')
