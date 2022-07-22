@@ -32,7 +32,7 @@ line_break()
 
 # 팀 멤버 section
 section('Team Member')
-st.subheader('선은지, 김동영, 김채현, 주소리')
+st.markdown('**선은지, 김동영, 김채현, 주소리**')
 line_break()
 
 # 데이터 출처 section
