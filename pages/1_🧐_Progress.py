@@ -58,10 +58,10 @@ section('Solve')
 tab1, tab2 = st.tabs(["Detection", "Image Train"])
 
 with tab1:
-    st.suheader("Detection")
+    st.subheader("Detection")
     
 
 with tab2:
-    st.suheader("Image Train")
+    st.subheader("Image Train")
 
 line_break()
