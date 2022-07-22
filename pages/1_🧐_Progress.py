@@ -39,19 +39,20 @@ section('Problem')
 st.subheader("OpenCV Real Time")
 callout([
     '모델의 성능 자체는 높게 나타났지만, OpenCV를 이용 수화를 예측할 경우 대부분을 다르게 예측하는 문제가 발생한다.'
-    ])
-line_break()
-    
-st.markdown('1. **A**를 **I** 라고 잘못 예측한 경우')
-image = Image.open('images/fail1.jpg')
-st.image(image,)
-line_break()
-    
-st.markdown('2. **W**를 **B**라고 잘못 예측한 경우')
-image2 = Image.open('images/fail2.jpg')
-st.image(image2,)
-    
-line_break()
+       ])
+
+col1, col2 = st.columns(2)
+with col1:
+    st.markdown('1. **A**를 **I** 라고 잘못 예측한 경우')
+    image = Image.open('images/fail1.jpg')
+    st.image(image,)
+    line_break()
+
+with col2:   
+    st.markdown('2. **W**를 **B**라고 잘못 예측한 경우')
+    image2 = Image.open('images/fail2.jpg')
+    st.image(image2,)
+    line_break()
 
 # 해결 section
 section('Solve')
