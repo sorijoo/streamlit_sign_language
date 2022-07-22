@@ -71,7 +71,6 @@ with tab1:
     
     image = Image.open('images/mediapip.PNG')
     st.image(image,)
-    st.caption('mediapip를 통해 얻은 손의 중요 부위와 위치 사진')
     callout([
         'Hand Detection 방법을 이용하여 손가락 마디, 관절 등을 인식할 수 있도록 한다.',
     ])
