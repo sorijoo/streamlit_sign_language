@@ -6,7 +6,7 @@ from PIL import Image
 
 # 전체 페이지 설정
 st.set_page_config(
-    page_title="Progress",
+    page_title="Eng Sign Progress",
     page_icon="💡",
     initial_sidebar_state="expanded", 
     menu_items={
