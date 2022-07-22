@@ -82,11 +82,11 @@ with tab2:
         '직접 모션을 취한 뒤 이미지를 저장하여 데이터를 수집하고, 학습시킨 후 테스트를 해보니 성능이 눈에 띄게 좋아졌다.'
     ])
     
-    image = Image.open('images/detection1.PNG')
+    image = Image.open('images/detection1.png')
     st.image(image,)
-    image2 = Image.open('images/detection2.PNG')
+    image2 = Image.open('images/detection2.png')
     st.image(image2,)   
-    image3 = Image.open('images/detection3.PNG')
+    image3 = Image.open('images/detection3.png')
     st.image(image3,)
 
 line_break()
