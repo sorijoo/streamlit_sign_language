@@ -39,13 +39,11 @@ section('Problem')
 tab1, tab2, tab3 = st.tabs(["Problem1", "Problem2", "Problem3"])
 
 with tab1:
-    st.header("A cat")
-    image = Image.open('images/sign_language2.png')
+    st.header("Problem1")
+    image = Image.open('images/fail1.jpg')
     st.image(image,)
-
-with tab2:
-    st.header("A dog")
-    st.write("https://static.streamlit.io/examples/dog.jpg")
+    image2 = Image.open('images/fail1.jpg')
+    st.image(image2,)
 
 with tab3:
     st.header("An owl")
