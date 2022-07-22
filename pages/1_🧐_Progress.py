@@ -65,9 +65,11 @@ with tab1:
         '1. 모델 자체의 성능 문제',
         '2. 전체적인 손 모양과 손가락의 마디들을 제대로 인식하지 못 하는 문제'
     ])
+    image = Image.open('images/mideapip.PNG')
+    st.image(image,)
+    
 line_break()
 
 with tab2:
     st.subheader("Image Train")
-
 line_break()
