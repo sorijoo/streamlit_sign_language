@@ -71,7 +71,9 @@ with tab1:
     
     image = Image.open('images/mediapip.PNG')
     st.image(image,)
-    st.write('Hand Detection 방법을 이용하여 손가락 마디, 관절 등을 인식할 수 있도록 한다.')
+    callout([
+        'Hand Detection 방법을 이용하여 손가락 마디, 관절 등을 인식할 수 있도록 한다.'
+    ])
     
     
 
