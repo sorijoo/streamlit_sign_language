@@ -24,7 +24,7 @@ line_break()
 
 # 구성도 section
 section('구성도')
-imge = Image.open('images/content.PNG')
+image = Image.open('images/content.PNG')
 st.image(image,)
 line_break()
 
