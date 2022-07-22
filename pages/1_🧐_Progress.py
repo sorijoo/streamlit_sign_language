@@ -22,6 +22,12 @@ image = Image.open('images/progress.PNG')
 st.image(image,)
 line_break()
 
+# 구성도 section
+section('구성도')
+imge = Image.open('images/content.PNG')
+st.image(image,)
+line_break()
+
 # 주제 선정 section
 section('Subject')
 callout([
