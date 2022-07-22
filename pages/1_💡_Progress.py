@@ -142,5 +142,11 @@ with tab2:
     # 문제점 section
     section('Problem')
     
+    line_break()
+    line_break()
+    
     # 해결 section
     section('Solve')
+    
+    line_break()
+    line_break()
