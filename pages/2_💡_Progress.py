@@ -7,7 +7,7 @@ from PIL import Image
 # 전체 페이지 설정
 st.set_page_config(
     page_title="Progress",
-    page_icon="🧐",
+    page_icon="💡",
     initial_sidebar_state="expanded", 
     menu_items={
         'Get Help': 'https://www.extremelycoolapp.com/help',
