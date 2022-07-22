@@ -59,7 +59,10 @@ tab1, tab2 = st.tabs(["Detection", "Image Train"])
 
 with tab1:
     st.subheader("Detection")
-    
+    callout([
+        '수화를 제대로 인식하지 못 하는 문제점의 원인이 무엇일까?'
+    ])
+line_break()
 
 with tab2:
     st.subheader("Image Train")
