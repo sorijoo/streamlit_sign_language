@@ -75,8 +75,18 @@ with tab1:
         'Hand Detection 방법을 이용하여 손가락 마디, 관절 등을 인식할 수 있도록 한다.'
     ])
     
-    
-
 with tab2:
     st.subheader("Image Train")
+    callout([
+        'Hand Detection을 이용한 이미지로 모델을 학습 시키기 위해 직접 데이터를 수집하였다.',
+        '직접 모션을 취한 뒤 이미지를 저장하여 데이터를 수집하고, 학습시킨 후 테스트를 해보니 성능이 눈에 띄게 좋아졌다.'
+    ])
+    
+    image = Image.open('images/detection1.PNG')
+    st.image(image,)
+    image2 = Image.open('images/detection2.PNG')
+    st.image(image2,)   
+    image3 = Image.open('images/detection3.PNG')
+    st.image(image3,)
+
 line_break()
