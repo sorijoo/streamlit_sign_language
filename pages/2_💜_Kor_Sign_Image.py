@@ -5,10 +5,16 @@ from PIL import Image
 from html_module import line_break, section, callout, title
 
 st.set_page_config(
-    page_title="Likelion AI School Sign Miniproject",
-    page_icon="🐶",
-    layout="wide",
+    page_title="Korean Sign Language Prediction",
+    page_icon="🤘",  # 아이콘
+    initial_sidebar_state="expanded", 
+    menu_items={
+        'Get Help': 'https://www.extremelycoolapp.com/help',
+        'Report a bug': "https://www.extremelycoolapp.com/bug",
+        'About': "# This is a header. This is an *extremely* cool app!"
+    }
 )
+
 st.sidebar.markdown("SIGN SIGN")
 
 st.title("SIGN")
@@ -17,7 +23,6 @@ st.write("""
 SIGN
 """)
 filename = st.file_uploader("Choose a file")
-
 
 model = tf.keras.models.load_model('model/model_kor_num_no_augmentation.h5')
 
@@ -32,7 +37,6 @@ convertDict = {0: "1",
  8: "7",
  9: "8",
  10: "9"}
-
 
 @st.cache
 def convert_letter(result):
