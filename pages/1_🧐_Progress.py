@@ -36,27 +36,21 @@ line_break()
 
 # 문제점 section
 section('Problem')
-tab1, tab2, tab3 = st.tabs(["Problem1", "Problem2", "Problem3"])
-
-with tab1:
-    st.subheader("OpenCV Real Time")
-    callout([
-    '모델의 성능 자체는 높게 나타났지만, OpenCV Real Time으로 수화를 예측할 경우 대부분을 다르게 예측하는 문제 발생'
+st.subheader("OpenCV Real Time")
+callout([
+    '모델의 성능 자체는 높게 나타났지만, OpenCV Real Time으로 수화를 예측할 경우 대부분을 다르게 예측하는 문제가 발생'
     ])
-    line_break()
+line_break()
     
-    st.markdown('1. **A**를 **I** 라고 잘못 예측한 경우')
-    image = Image.open('images/fail1.jpg')
-    st.image(image,)
-    line_break()
+st.markdown('1. **A**를 **I** 라고 잘못 예측한 경우')
+image = Image.open('images/fail1.jpg')
+st.image(image,)
+line_break()
     
-    st.markdown('2. **W**를 **B**라고 잘못 예측한 경우')
-    image2 = Image.open('images/fail2.jpg')
-    st.image(image2,)
+st.markdown('2. **W**를 **B**라고 잘못 예측한 경우')
+image2 = Image.open('images/fail2.jpg')
+st.image(image2,)
     
-with tab2:
-    st.subheader("An owl")
-
 line_break()
 
 # 해결 section
