@@ -21,11 +21,13 @@ section('Progress')
 image = Image.open('images/progress.PNG')
 st.image(image,)
 line_break()
+line_break()
 
 # 구성도 section
 section('구성도')
 image = Image.open('images/content.PNG')
 st.image(image,)
+line_break()
 line_break()
 
 # 주제 선정 section
