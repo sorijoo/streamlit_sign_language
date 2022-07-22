@@ -113,4 +113,4 @@ with tab1:
     line_break()
 
 with tab2:
-    
+    st.subheader("Image Train")
