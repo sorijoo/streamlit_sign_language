@@ -30,6 +30,11 @@ callout([
 ])
 line_break()
 
+# 팀 멤버 section
+section('Team Member')
+st.subhead('선은지, 김동영, 김채현, 주소리')
+line_break()
+
 # 데이터 출처 section
 section('Dataset')
 link = 'https://www.kaggle.com/datasets/datamunge/sign-language-mnist'
