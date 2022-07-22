@@ -125,3 +125,22 @@ with tab2:
 
     line_break()
     line_break()
+    
+    # 주제 선정 section
+    section('Subject')
+    callout([
+        '[데이터]',
+        'Kaggle - Korean Sign Number Language Dataset',
+        '1부터 10까지의 숫자를 나타내는 수화 데이터이다.',
+        '',
+        '[필요성]',
+        '청각 장애인과 청각 장애인이 컴퓨터 비전 애플리케이션을 사용하여 더 나은 의사 소통을 할 수 있도록 실용적으로 도움이 되기를 바란다.'
+    ])
+    line_break()
+    line_break()
+    
+    # 문제점 section
+    section('Problem')
+    
+    # 해결 section
+    section('Solve')
