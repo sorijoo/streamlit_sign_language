@@ -1,8 +1,6 @@
 pandas
 numpy
 streamlit
-seaborn
-matplotlib
 koreanize_matplotlib
 
 streamlit_webrtc
@@ -12,11 +10,11 @@ tensorflow
 torchvision
 opencv-python
 PyYAML
-scipy
-seaborn
-cvzone
-mediapipe
 pillow-heif
-scikit-image
-scikit-learn
 opencv-contrib-python
+
+pillow
+cvzone
+tensorflow
+mediapipe
+opencv-python-headless
