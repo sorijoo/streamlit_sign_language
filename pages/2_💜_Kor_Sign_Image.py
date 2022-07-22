@@ -34,7 +34,7 @@ convertDict = {0: "1",
  10: "9"}
 
 
-
+@st.cache
 def convert_letter(result):
     classLabels = {idx:c for idx, c in zip(idx, alpha)}
     try:
