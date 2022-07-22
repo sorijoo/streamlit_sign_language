@@ -16,6 +16,9 @@ st.set_page_config(
     }
 )
 
+# title
+title('Eng Sign Progress')
+
 # Progress section
 section('Progress')
 image = Image.open('images/progress.PNG')
