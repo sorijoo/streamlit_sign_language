@@ -45,12 +45,12 @@ with tab1:
     ])
     line_break()
     
-    st.markdown('1. **A**를 **I** 라고 잘못 인식한 경우')
+    st.markdown('1. **A**를 **I** 라고 잘못 예측한 경우')
     image = Image.open('images/fail1.jpg')
     st.image(image,)
     line_break()
     
-    st.markdown('2. **W**를 **B**라고 잘못 인식한 경우')
+    st.markdown('2. **W**를 **B**라고 잘못 예측한 경우')
     image2 = Image.open('images/fail2.jpg')
     st.image(image2,)
     
