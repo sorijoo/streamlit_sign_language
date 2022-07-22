@@ -33,6 +33,7 @@ callout([
     '청각 장애인과 청각 장애인이 컴퓨터 비전 애플리케이션을 사용하여 더 나은 의사 소통을 할 수 있도록 실용적으로 도움이 되기를 바란다.'
 ])
 line_break()
+line_break()
 
 # 문제점 section
 section('Problem')
@@ -54,6 +55,8 @@ with col2:
     image2 = Image.open('images/fail2.jpg')
     st.image(image2,)
     line_break()
+    
+line_break()
 
 # 해결 section
 section('Solve')
