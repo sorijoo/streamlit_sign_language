@@ -55,3 +55,13 @@ line_break()
 
 # 해결 section
 section('Solve')
+tab1, tab2, tab3 = st.tabs(["Detection", "Image Train"])
+
+with tab1:
+    st.suheader("Detection")
+    
+
+with tab2:
+    st.suheader("Image Train")
+
+line_break()
