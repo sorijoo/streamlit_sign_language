@@ -18,6 +18,7 @@ st.set_page_config(
 
 st.balloons()  # 풍선 효과
 title('Sign Language CNN Project')
+line_break()
 
 # Team member section
 section('Team Member')
@@ -60,7 +61,7 @@ with tab2:
     callout([
       '안녕하세요! ✌ Sign팀입니다. 🙂',
       'Kaggle의 Korean Sign Language Number 데이터를 이용하여 CNN Project를 진행하였습니다.',
-      '이미지를 업로드하면 해당 수화 이미지가 어느 숫자를 의미히는지 예측해줍니다..'
+      '이미지를 업로드하면 해당 수화 이미지가 어느 숫자를 의미히는지 예측합니다.'
     ])
     line_break()
 
