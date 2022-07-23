@@ -55,7 +55,7 @@ with tab1:
 with tab2:
     # 개요 section
     section('Summary')
-    image = Image.open('images/kor_sign.jpg')
+    image = Image.open('images/kor_sign_lang.png')
     st.image(image,)
     callout([
       '안녕하세요! ✌ Sign팀입니다. 🙂',
