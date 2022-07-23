@@ -60,7 +60,7 @@ if filename is not None:
     img = np.array(img)
     pred = np.argmax(model.predict(img.reshape(1, 300, 300, 1)))
     # text = []
-    data_load_state = st.text('혹시.. 당신이 원하는 숫자가')
     st.image(img, use_column_width=False)
-    data_load_state.title(convertDict[pred])
+    st.text('혹시.. 당신이 원하는 숫자가')
+    st.title(convertDict[pred])
     st.text('인가요?')
