@@ -18,11 +18,13 @@ st.set_page_config(
 title('Korean Sign Language Prediction')
 image = Image.open('images/korean_sign_lang.png')
 st.image(image,)
+line_break()
 
 section('Image Upload')
 callout([
     '위의 수화 이미지를 참고하여 사진을 찍은 후 업로드 해보세요!'
 ])
+line_break
 
 # Image Upload
 filename = st.file_uploader("Choose a file")
