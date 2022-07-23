@@ -62,5 +62,5 @@ if filename is not None:
     # text = []
     data_load_state = st.text('혹시.. 당신이 원하는 숫자가')
     st.image(img, use_column_width=False)
-    st.title(convertDict[pred])
-    st.text("인가요?")
+    data_load_state.title(convertDict[pred])
+    st.text('인가요?')
