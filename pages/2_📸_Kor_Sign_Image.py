@@ -6,7 +6,7 @@ from html_module import line_break, section, callout, title
 
 st.set_page_config(
     page_title="Korean Sign Language Prediction",
-    page_icon="🤘",  # 아이콘
+    page_icon="📸",
     initial_sidebar_state="expanded", 
     menu_items={
         'Get Help': 'https://www.extremelycoolapp.com/help',
@@ -15,11 +15,16 @@ st.set_page_config(
     }
 )
 
-st.title("SIGN")
+title('Korean Sign Language Prediction')
+image = Image.open('images/korean_sign_lang.png')
+st.image(image,)
 
-st.write("""
-SIGN
-""")
+section('Image Upload')
+callout([
+    '위의 수화 이미지를 참고하여 사진을 찍은 후 업로드 해보세요!'
+])
+
+# Image Upload
 filename = st.file_uploader("Choose a file")
 
 model = tf.keras.models.load_model('model/model_kor_num_no_augmentation.h5')
