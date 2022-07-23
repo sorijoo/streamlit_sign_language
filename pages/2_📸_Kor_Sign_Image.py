@@ -16,6 +16,8 @@ st.set_page_config(
 )
 
 title('Korean Sign Language Prediction')
+line_break()
+
 image = Image.open('images/korean_sign_lang.png')
 st.image(image,)
 line_break()
