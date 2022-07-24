@@ -122,7 +122,8 @@ with tab2:
 
     # 구성도 section
     section('구성도')
-
+    image = Image.open('images/content2.PNG')
+    st.image(image,)
     line_break()
     line_break()
     
