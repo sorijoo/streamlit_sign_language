@@ -18,8 +18,14 @@ st.set_page_config(
 
 st.balloons()  # 풍선 효과
 title('Sign Language CNN Project')
+line_break()
 
-tab1, tab2 = st.tabs(["Eng Sign Language", "Kor Sign Number Language"])
+# Team member section
+section('Team Member')
+st.markdown('선은지, 김동영, 김채현, 주소리')
+line_break()
+
+tab1, tab2 = st.tabs(["English Sign Language", "Korean Sign Language"])
 
 with tab1:
     # 개요 section
@@ -31,11 +37,6 @@ with tab1:
       'Kaggle의 English Sign Language 데이터를 이용하여 CNN Project를 진행하였습니다.',
       'OpenCV를 이용하여 실시간으로 알파벳 수화를 예측할 수 있도록 만들었습니다.'
     ])
-    line_break()
-
-    # 팀 멤버 section
-    section('Team Member')
-    st.markdown('선은지, 김동영, 김채현, 주소리')
     line_break()
 
     # 데이터 출처 section
@@ -55,12 +56,12 @@ with tab1:
 with tab2:
     # 개요 section
     section('Summary')
-    image = Image.open('images/kor_sign.jpg')
+    image = Image.open('images/korean_sign_lang.png')
     st.image(image,)
     callout([
       '안녕하세요! ✌ Sign팀입니다. 🙂',
-      'Kaggle의 Korean Sign Number Language 데이터를 이용하여 CNN Project를 진행하였습니다.',
-      '이미지를 업로드하면 해당 수화 이미지가 어느 숫자를 의미히는지 예측해줍니다..'
+      'Kaggle의 Korean Sign Language Number 데이터를 이용하여 CNN Project를 진행하였습니다.',
+      '이미지를 업로드하면 해당 수화 이미지가 어느 숫자를 의미히는지 예측합니다.'
     ])
     line_break()
 

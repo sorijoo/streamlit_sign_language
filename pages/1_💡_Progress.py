@@ -122,7 +122,8 @@ with tab2:
 
     # 구성도 section
     section('구성도')
-
+    image = Image.open('images/content2.PNG')
+    st.image(image,)
     line_break()
     line_break()
     
@@ -136,17 +137,5 @@ with tab2:
         '[필요성]',
         '청각 장애인과 청각 장애인이 컴퓨터 비전 애플리케이션을 사용하여 더 나은 의사 소통을 할 수 있도록 실용적으로 도움이 되기를 바란다.'
     ])
-    line_break()
-    line_break()
-    
-    # 문제점 section
-    section('Problem')
-    
-    line_break()
-    line_break()
-    
-    # 해결 section
-    section('Solve')
-    
     line_break()
     line_break()
